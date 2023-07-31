@@ -1,0 +1,29 @@
+# Ignore database file (if you are using SQLite)
+db.sqlite3
+
+# Ignore static files collected by Django
+/static/
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore environment-specific settings (e.g., local settings)
+/my_project/settings/local.py
+
+# Ignore logs and other temporary files
+/logs/
+*.log
+*.pid
+
+# Ignore virtual environment files (if using virtualenv or venv)
+/venv/
+/env/
+/envs/
+
+# Ignore other sensitive or generated files
+secret_key.txt
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
